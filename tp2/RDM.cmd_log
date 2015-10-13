@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan6 -refsym RDM /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sch /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sym 
+sch2hdl -sympath /home/m1/rouse/Documents/M1/AEO/TP1/tp2/ipcore_dir -intstyle ise -family spartan6 -flat -suppress -vhdl RDM_drc.vhf -w /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sch 
+sch2hdl -sympath /home/m1/rouse/Documents/M1/AEO/TP1/tp2/ipcore_dir -intstyle ise -family spartan6 -flat -suppress -vhdl RDM_drc.vhf -w /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sch 
+sch2sym -intstyle ise -family spartan6 -refsym RDM /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sch /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sym 
+sch2sym -intstyle ise -family spartan6 -refsym RDM /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sch /home/m1/rouse/Documents/M1/AEO/TP1/tp2/RDM.sym 

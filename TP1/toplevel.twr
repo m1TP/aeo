@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml toplevel.twx toplevel.ncd -o toplevel.twr toplevel.pcf -ucf
+Nexys3.ucf
+
+Design file:              toplevel.ncd
+Physical constraint file: toplevel.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.15 2010-12-02)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+anodes<0>   |         7.147(R)|      SLOW  |         3.627(R)|      FAST  |clk_BUFGP         |   0.000|
+anodes<1>   |         7.280(R)|      SLOW  |         3.712(R)|      FAST  |clk_BUFGP         |   0.000|
+anodes<2>   |         7.238(R)|      SLOW  |         3.705(R)|      FAST  |clk_BUFGP         |   0.000|
+anodes<3>   |         7.237(R)|      SLOW  |         3.704(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<0> |         9.138(R)|      SLOW  |         4.568(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<1> |         9.267(R)|      SLOW  |         4.381(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<2> |         9.390(R)|      SLOW  |         4.591(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<3> |         9.005(R)|      SLOW  |         4.474(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<4> |         9.152(R)|      SLOW  |         4.395(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<5> |         9.109(R)|      SLOW  |         4.429(R)|      FAST  |clk_BUFGP         |   0.000|
+sevenseg<6> |         9.086(R)|      SLOW  |         4.336(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.553|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+switches<0>    |led<0>         |    6.468|
+switches<0>    |sevenseg<0>    |    8.117|
+switches<0>    |sevenseg<1>    |    7.711|
+switches<0>    |sevenseg<2>    |    8.424|
+switches<0>    |sevenseg<3>    |    7.984|
+switches<0>    |sevenseg<4>    |    7.760|
+switches<0>    |sevenseg<5>    |    8.143|
+switches<0>    |sevenseg<6>    |    7.694|
+switches<1>    |led<1>         |    6.971|
+switches<1>    |sevenseg<0>    |    8.330|
+switches<1>    |sevenseg<1>    |    8.345|
+switches<1>    |sevenseg<2>    |    8.356|
+switches<1>    |sevenseg<3>    |    8.197|
+switches<1>    |sevenseg<4>    |    8.490|
+switches<1>    |sevenseg<5>    |    8.075|
+switches<1>    |sevenseg<6>    |    8.424|
+switches<2>    |led<2>         |    6.778|
+switches<2>    |sevenseg<0>    |    7.751|
+switches<2>    |sevenseg<1>    |    7.885|
+switches<2>    |sevenseg<2>    |    7.853|
+switches<2>    |sevenseg<3>    |    7.618|
+switches<2>    |sevenseg<4>    |    7.770|
+switches<2>    |sevenseg<5>    |    7.572|
+switches<2>    |sevenseg<6>    |    7.704|
+switches<3>    |led<3>         |    6.671|
+switches<3>    |sevenseg<0>    |    8.587|
+switches<3>    |sevenseg<1>    |    7.967|
+switches<3>    |sevenseg<2>    |    8.639|
+switches<3>    |sevenseg<3>    |    8.454|
+switches<3>    |sevenseg<4>    |    8.228|
+switches<3>    |sevenseg<5>    |    8.358|
+switches<3>    |sevenseg<6>    |    8.162|
+switches<4>    |led<4>         |    6.180|
+switches<4>    |sevenseg<0>    |    8.641|
+switches<4>    |sevenseg<1>    |    8.235|
+switches<4>    |sevenseg<2>    |    8.948|
+switches<4>    |sevenseg<3>    |    8.508|
+switches<4>    |sevenseg<4>    |    8.284|
+switches<4>    |sevenseg<5>    |    8.667|
+switches<4>    |sevenseg<6>    |    8.218|
+switches<5>    |led<5>         |    6.375|
+switches<5>    |sevenseg<0>    |    8.134|
+switches<5>    |sevenseg<1>    |    8.149|
+switches<5>    |sevenseg<2>    |    8.160|
+switches<5>    |sevenseg<3>    |    8.001|
+switches<5>    |sevenseg<4>    |    8.294|
+switches<5>    |sevenseg<5>    |    7.879|
+switches<5>    |sevenseg<6>    |    8.228|
+switches<6>    |led<6>         |    6.038|
+switches<6>    |sevenseg<0>    |    8.272|
+switches<6>    |sevenseg<1>    |    8.406|
+switches<6>    |sevenseg<2>    |    8.374|
+switches<6>    |sevenseg<3>    |    8.139|
+switches<6>    |sevenseg<4>    |    8.291|
+switches<6>    |sevenseg<5>    |    8.093|
+switches<6>    |sevenseg<6>    |    8.225|
+switches<7>    |led<7>         |    6.752|
+switches<7>    |sevenseg<0>    |    8.703|
+switches<7>    |sevenseg<1>    |    8.083|
+switches<7>    |sevenseg<2>    |    8.755|
+switches<7>    |sevenseg<3>    |    8.570|
+switches<7>    |sevenseg<4>    |    8.344|
+switches<7>    |sevenseg<5>    |    8.474|
+switches<7>    |sevenseg<6>    |    8.278|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 22 17:55:17 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 288 MB
+
+
+

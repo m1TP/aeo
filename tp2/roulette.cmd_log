@@ -1,0 +1,1 @@
+vhdtdtfi -prj tp2 -o /home/m1/rouse/Documents/M1/AEO/TP1/tp2/roulette.vhi -lib work /home/m1/rouse/Documents/M1/AEO/TP1/tp2//roulette.vhd -module roulette -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

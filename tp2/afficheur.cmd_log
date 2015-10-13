@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan6 -refsym afficheur /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sch /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sym 
+sch2hdl -sympath /home/m1/rouse/Documents/M1/AEO/TP1/tp2/ipcore_dir -intstyle ise -family spartan6 -flat -suppress -vhdl afficheur_drc.vhf -w /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sch 
+sch2sym -intstyle ise -family spartan6 -refsym afficheur /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sch /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sym 
+sch2hdl -sympath /home/m1/rouse/Documents/M1/AEO/TP1/tp2/ipcore_dir -intstyle ise -family spartan6 -flat -suppress -vhdl afficheur_drc.vhf -w /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sch 
+sch2sym -intstyle ise -family spartan6 -refsym afficheur /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sch /home/m1/rouse/Documents/M1/AEO/TP1/tp2/afficheur.sym 

@@ -1,0 +1,6 @@
+vhdl work "X7SEG.vhd"
+vhdl work "shiftanodes.vhf"
+vhdl work "mux4x4.vhf"
+vhdl work "E190.vhf"
+vhdl work "afficheur.vhf"
+vhdl work "toplevel.vhf"

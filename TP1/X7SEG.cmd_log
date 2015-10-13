@@ -1,0 +1,2 @@
+vhdtdtfi -lib work X7SEG.vhd -prj TP1 -o X7SEG.spl -module X7SEG -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 X7SEG.spl /home/m1/rouse/Documents/M1/AEO/TP1/TP1/X7SEG.sym 

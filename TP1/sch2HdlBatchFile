@@ -1,0 +1,5 @@
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/toplevel.vhf,-w,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/toplevel.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/mux4x4.vhf,-w,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/mux4x4.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/afficheur.vhf,-w,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/afficheur.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/shiftanodes.vhf,-w,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/shiftanodes.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/E190.vhf,-w,/home/m1/rouse/Documents/M1/AEO/TP1/TP1/E190.sch
