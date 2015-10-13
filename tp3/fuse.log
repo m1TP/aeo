@@ -1,0 +1,69 @@
+Running: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/m1/rouse/Documents/M1/AEO/aeo/tp3/roulette_tb_isim_beh.exe -prj /home/m1/rouse/Documents/M1/AEO/aeo/tp3/roulette_tb_beh.prj work.roulette_tb 
+ISim M.81d (signature 0x9ca8bed6)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/X7SEG.vhd" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/shiftanodes.vhf" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/mux4x4.vhf" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/E190.vhf" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/timer.vhd" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/rdm.vhd" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/pulse.vhf" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/Enable190.vhf" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/decodeur3_8.vhd" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/afficheur.vhf" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/roulette.vhd" into library work
+Parsing VHDL file "/home/m1/rouse/Documents/M1/AEO/aeo/tp3/roulette_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 90524 KB
+Fuse CPU Usage: 180 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package textio from library std
+Using precompiled package vital_timing from library ieee
+Using precompiled package vital_primitives from library ieee
+Compiling package vcomponents
+Compiling architecture behavioral of entity rdm [rdm_default]
+Compiling architecture behavioral of entity cb4ce_hxilinx_enable190 [cb4ce_hxilinx_enable190_default]
+Compiling architecture vcc_v of entity vcc [vcc_default]
+Compiling architecture fd_v of entity fd [\FD('0')\]
+Compiling architecture nor2_v of entity nor2 [nor2_default]
+Compiling architecture inv_v of entity inv [inv_default]
+Compiling architecture behavioral of entity cb16ce_hxilinx_enable190 [cb16ce_hxilinx_enable190_default]
+Compiling architecture behavioral of entity enable190 [enable190_default]
+Compiling architecture m4_1e_hxilinx_afficheur_v of entity m4_1e_hxilinx_afficheur [m4_1e_hxilinx_afficheur_default]
+Compiling architecture behavioral of entity mux4x4_muser_afficheur [mux4x4_muser_afficheur_default]
+Compiling architecture behavioral of entity cb2ce_hxilinx_afficheur [cb2ce_hxilinx_afficheur_default]
+Compiling architecture behavioral of entity x7seg [x7seg_default]
+Compiling architecture behavioral of entity cb4ce_hxilinx_afficheur [cb4ce_hxilinx_afficheur_default]
+Compiling architecture behavioral of entity cb16ce_hxilinx_afficheur [cb16ce_hxilinx_afficheur_default]
+Compiling architecture behavioral of entity e190_muser_afficheur [e190_muser_afficheur_default]
+Compiling architecture fde_v of entity fde [\FDE('0')\]
+Compiling architecture behavioral of entity shiftanodes_muser_afficheur [shiftanodes_muser_afficheur_defa...]
+Compiling architecture behavioral of entity afficheur [afficheur_default]
+Compiling architecture and3_v of entity and3 [and3_default]
+Compiling architecture behavioral of entity pulse [pulse_default]
+Compiling package vpkg
+Compiling architecture ibufg_v of entity ibufg [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity dcm_sp [\DCM_SP(true,"*",true,false,16.0...]
+Compiling architecture bufg_v of entity bufg [bufg_default]
+Compiling architecture xilinx of entity timer [timer_default]
+Compiling architecture behavioral of entity decodeur3_8 [decodeur3_8_default]
+Compiling architecture behavioral of entity roulette [roulette_default]
+Compiling architecture behavior of entity roulette_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 73 VHDL Units
+Built simulation executable /home/m1/rouse/Documents/M1/AEO/aeo/tp3/roulette_tb_isim_beh.exe
+Fuse Memory Usage: 658604 KB
+Fuse CPU Usage: 270 ms
+GCC CPU Usage: 1250 ms
